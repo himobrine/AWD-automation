@@ -1,0 +1,7 @@
+1）下载网站目录（下载网站数据库），部署监控脚本（jiank_py2_z 给权限 chmod +x 文件名） python3 py3监控.py
+
+
+
+部署waf，上传waf文件到目录，找到网站的index.php目录，包含这个waf文件
+include 'ip_heimd.php';
+include 'waf3_ruoji_1.php';
