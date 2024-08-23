@@ -1,0 +1,7 @@
+在Index.php文件包含
+include 'ip_heimd.php';
+include'awf.php';
+
+而且建议不要放在Index.php目录下，因为要生成日志，所以建议放别的目录
+日志在tmp/1log目录下
+ip_heimd.php为禁止访问ip黑名单
